@@ -969,6 +969,21 @@
                 "17":"6d6+Move",
             },
         },
+        "dazzling gleam":{
+        	"type":"fairy",
+        	"move_power":["con","cha"],
+        	"time":"1 action",
+        	"pp":5,
+        	"duration":"Instantaneous",
+        	"range":"15ft cone",
+        	"desc":"Creatures must make a DEX (DC:8+prof+MOVE) saving throw, or take 2d6+MOVE damage, on a success they take half as much.",
+            "damage":{
+                "1":"2d6+Move",
+                "5":"2d8+Move",
+                "10":"4d6+Move",
+                "17":"6d6+Move",
+            },
+        },
         "brine":{
         	"type":"water",
         	"move_power":["dex","str"],
