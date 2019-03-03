@@ -31,8 +31,25 @@ with open('pokemon_data.json') as json_file:
 		encounters.append(p)
 
 
-# def enc(name):
-# 	pass
+def enc(name):
+	try:
+		base = data["encounters"][name]
+		grouping = base["grouping"]
+		levels = base["levels"]
+		pokemon_choices = []
+		pokemon_weights = []
+		for p in base["pokemon_rate"]:
+			pokemon_choices.append(p)
+		for p in range(len(base["pokemon_rate"])):
+			pokemon_weights.append(base["pokemon_rate"][pokemon_choices[p]])
+		num_pokes = random.randrange(grouping["low"],grouping["high"]+1)
+		for i in range(num_pokes):
+			choice = random.choices(pokemon_choices,weights=pokemon_weights)
+			level = random.randrange(levels["low"],levels["high"]+1)
+			print("A level %d %s appears!" % (level, choice[0]))
+	except:
+	 	print("Encounter not found")
+
 
 
 def poke_print(name):
@@ -65,7 +82,7 @@ def poke_print(name):
 # class mon:
 # 	def __init__(self,species,level,shiny_rate=0.01):
 
-if pokemon.index("squirtle"):
-	poke_print("squirtle")
-else:
-	print("Not found")
+for i in range(10):
+	print("Set %d" % i)
+	enc("example")
+	print(" ")
