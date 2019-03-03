@@ -106,6 +106,10 @@
 			"desc":"Restores 2d4+2 HP",
 			"cost":"200"
 		},
+		"ice stone":{
+			"desc":"Evolves Alolan Sandshrew and Alolan Vulpix.",
+			"cost":"4000"
+		},
 		"super potion":{
 			"desc":"Restores 3d6+6 HP",
 			"cost":"500"
@@ -803,6 +807,22 @@
 		"50":{
 			"move":"overheat",
 			"cost":"10000"
+		},
+		"51":{
+			"move":"dark pulse",
+			"cost":"6000"
+		},
+		"52":{
+			"move":"dazzling gleam",
+			"cost":"6000"
+		},
+		"53":{
+			"move":"play rough",
+			"cost":"7200"
+		},
+		"54":{
+			"move":"gyro ball",
+			"cost":"5200"
 		},
 		"HM01":{
 			"move":"cut",
