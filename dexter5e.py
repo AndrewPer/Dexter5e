@@ -35,8 +35,37 @@ with open('pokemon_data.json') as json_file:
 # 	pass
 
 
+def poke_print(name):
+	base = data["pokemon"][name]
+	print(name)
+	print("desc: " + base["desc"])
+	print("size: " + base["size"] + "    " + "SR: " + base["sr"])
+	print("AC: " + str(base["ac"]) + "    " + "HP: " + str(base["hp"]))
+	print("STR: " + str(base["str"]) + "    " + "DEX: " + str(base["dex"]))
+	print("CON: " + str(base["con"]) + "    " + "INT: " + str(base["int"]))
+	print("WIS: " + str(base["wis"]) + "    " + "CHA: " + str(base["cha"]))
+	print("Proficiencies: " + str(base["proficiency"]))
+	print("Saving Throws: " + str(base["saving_throws"]))
+	print("Vulnerable: " + str(base["vuln"]))
+	print("Resists: " + str(base["resist"]))
+	print("Immune: " + str(base["immune"]))
+	print("Senses: " + str(base["senses"]))
+	print("Abilities: " + str(base["abilities"]))
+	print("Evolve: " + str(base["evolve"]))
+	print("Starting moves: " + str(base["moves"]["1"]))
+	print("Level two moves: " + str(base["moves"]["2"]))
+	print("Level six moves: " + str(base["moves"]["6"]))
+	print("Level ten moves: " + str(base["moves"]["10"]))
+	print("Level fourteen moves: " + str(base["moves"]["14"]))
+	print("Level eighteen moves: " + str(base["moves"]["18"]))
+	print("TMs: " + str(base["moves"]["tms"]))
+	print("HMs: " + str(base["moves"]["hms"]))
+
+
 # class mon:
 # 	def __init__(self,species,level,shiny_rate=0.01):
 
-
-print(pokemon[6])
+if pokemon.index("squirtle"):
+	poke_print("squirtle")
+else:
+	print("Not found")
