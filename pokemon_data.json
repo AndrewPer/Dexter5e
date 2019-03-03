@@ -605,7 +605,7 @@
 		"pp up":{
 			"desc":"Increase the max PP of one move by 2 (Max double original PP)",
 			"cost":"8800"
-		},
+		}
 	},
 	"tms":{
 		"01":{
@@ -942,7 +942,7 @@
                 "10":"2d8+Move",
                 "17":"4d6+Move",
                 "5":"1d12+Move"
-            },    
+            }  
         },
         "aqua jet":{
         	"type":"water",
@@ -956,8 +956,8 @@
                 "1":"1d6+Move",
                 "5":"1d12+Move",
                 "10":"2d8+Move",
-                "17":"4d6+Move",
-            },
+                "17":"4d6+Move"
+            }
         },
         "acid spray":{
         	"type":"poison",
@@ -971,8 +971,8 @@
                 "1":"1d6+Move",
                 "5":"1d12+Move",
                 "10":"2d8+Move",
-                "17":"4d6+Move",
-            },
+                "17":"4d6+Move"
+            }
         },
         "dark pulse":{
         	"type":"dark",
@@ -986,8 +986,8 @@
                 "1":"2d6+Move",
                 "5":"2d8+Move",
                 "10":"4d6+Move",
-                "17":"6d6+Move",
-            },
+                "17":"6d6+Move"
+            }
         },
         "dazzling gleam":{
         	"type":"fairy",
@@ -1001,8 +1001,8 @@
                 "1":"2d6+Move",
                 "5":"2d8+Move",
                 "10":"4d6+Move",
-                "17":"6d6+Move",
-            },
+                "17":"6d6+Move"
+            }
         },
         "dragon hammer":{
         	"type":"dragon",
@@ -1016,8 +1016,8 @@
                 "1":"2d8/2d4+Move",
                 "5":"2d10/2d6+Move",
                 "10":"3d10/3d6+Move",
-                "17":"4d12/4d8+Move",
-            },
+                "17":"4d12/4d8+Move"
+            }
         },
         "flare blitz":{
         	"type":"fire",
@@ -1031,8 +1031,8 @@
                 "1":"2d10+Move",
                 "5":"3d8+Move",
                 "10":"4d10+Move",
-                "17":"7d8+Move",
-            },
+                "17":"7d8+Move"
+            }
         },
         "gyro ball":{
         	"type":"steel",
@@ -1046,8 +1046,8 @@
                 "1":"1d4+Move",
                 "5":"2d4+Move",
                 "10":"1d12+Move",
-                "17":"4d4+Move",
-            },
+                "17":"4d4+Move"
+            }
         },
         "hex":{
         	"type":"ghost",
@@ -1061,8 +1061,8 @@
                 "1":"1d10+Move",
                 "5":"2d8+Move",
                 "10":"5d4+Move",
-                "17":"4d8+Move",
-            },
+                "17":"4d8+Move"
+            }
         },
         "ice shard":{
         	"type":"ice",
@@ -1076,8 +1076,8 @@
                 "1":"1d6+Move",
                 "5":"1d12+Move",
                 "10":"2d8+Move",
-                "17":"4d6+Move",
-            },
+                "17":"4d6+Move"
+            }
         },
         "icicle crash":{
         	"type":"ice",
@@ -1091,8 +1091,8 @@
                 "1":"2d6+Move",
                 "5":"2d8+Move",
                 "10":"4d6+Move",
-                "17":"6d6+Move",
-            },
+                "17":"6d6+Move"
+            }
         },
         "iron head":{
         	"type":"steel",
@@ -1106,8 +1106,8 @@
                 "1":"2d6+Move",
                 "5":"2d8+Move",
                 "10":"4d6+Move",
-                "17":"6d6+Move",
-            },
+                "17":"6d6+Move"
+            }
         },
         "metal burst":{
         	"type":"steel",
@@ -1121,8 +1121,8 @@
                 "1":"1.5x",
                 "5":"1.5x",
                 "10":"2x",
-                "17":"2x",
-            },
+                "17":"2x"
+            }
         },
         "nasty plot":{
         	"type":"dark",
@@ -1136,8 +1136,8 @@
                 "1":"",
                 "5":"",
                 "10":"",
-                "17":"",
-            },
+                "17":""
+            }
         },
         "play rough":{
         	"type":"fairy",
@@ -1151,8 +1151,8 @@
                 "1":"2d8+Move",
                 "5":"2d10+Move",
                 "10":"3d10+Move",
-                "17":"4d12+Move",
-            },
+                "17":"4d12+Move"
+            }
         },
         "shadow bone":{
         	"type":"ghost",
@@ -1166,8 +1166,8 @@
                 "1":"2d6+Move",
                 "5":"2d8+Move",
                 "10":"4d6+Move",
-                "17":"6d6+Move",
-            },
+                "17":"6d6+Move"
+            }
         },
         "brine":{
         	"type":"water",
@@ -1181,8 +1181,8 @@
                 "1":"1d10+Move",
                 "5":"2d8+Move",
                 "10":"5d4+Move",
-                "17":"4d8+Move",
-            },
+                "17":"4d8+Move"
+            }
         },
         "close combat":{
         	"type":"fighting",
@@ -1196,8 +1196,8 @@
                 "1":"2d10+Move",
                 "5":"3d8+Move",
                 "10":"4d10+Move",
-                "17":"7d8+Move",
-            },
+                "17":"7d8+Move"
+            }
         },
         "feint":{
         	"type":"normal",
@@ -1211,8 +1211,8 @@
                 "1":"1d6+Move",
                 "5":"1d10+Move",
                 "10":"2d8+Move",
-                "17":"5d4+Move",
-            },
+                "17":"5d4+Move"
+            }
         },
         "flare blitz":{
         	"type":"fire",
@@ -1226,8 +1226,8 @@
                 "1":"2d10+Move",
                 "5":"3d8+Move",
                 "10":"4d10+Move",
-                "17":"7d8+Move",
-            },
+                "17":"7d8+Move"
+            }
         },
         "leaf storm":{
         	"type":"grass",
@@ -1241,8 +1241,8 @@
                 "1":"5d4+Move",
                 "5":"3d10+Move",
                 "10":"5d8+Move",
-                "17":"8d8+Move",
-            },
+                "17":"8d8+Move"
+            }
         },
         "nasty plot":{
         	"type":"dark",
@@ -1256,8 +1256,8 @@
                 "1":"none",
                 "5":"none",
                 "10":"none",
-                "17":"none",
-            },
+                "17":"none"
+            }
         },
         "punishment":{
         	"type":"dark",
@@ -1271,8 +1271,8 @@
                 "1":"1d10+Move",
                 "5":"2d8+Move",
                 "10":"5d4+Move",
-                "17":"5d8+Move",
-            },
+                "17":"5d8+Move"
+            }
         },
         "wood hammer":{
         	"type":"grass",
@@ -1286,8 +1286,8 @@
                 "1":"2d10+Move",
                 "5":"3d8+Move",
                 "10":"4d10+Move",
-                "17":"7d8+Move",
-            },
+                "17":"7d8+Move"
+            }
         },
         "acid":{
             "damage":{
@@ -7903,7 +7903,7 @@
         },
         "alolan rattata":{
             "desc":"It shows no interest in anything that isn't fresh. If you take it shopping with you, it will help you pick out ingredients.",
-            "dex_num":019,
+            "dex_num":19,
             "size":"tiny",
             "type":["dark","normal"],
             "sr":"1/4",
@@ -7938,7 +7938,7 @@
         },
         "alolan raticate":{
             "desc":"It has an incredibly greedy personality. Its nest is filled with so much food gathered by Rattata at its direction, it can't possibly eat it all.",
-            "dex_num":020,
+            "dex_num":20,
             "size":"small",
             "type":["dark","normal"],
             "sr":"5",
@@ -7973,7 +7973,7 @@
         },
         "alolan raichu":{
             "desc":"It focuses psychic energy into its tail and rides it like its surfing. Another name for this pokemon is 'hodad'.",
-            "dex_num":026,
+            "dex_num":26,
             "size":"small",
             "type":["electric","psychic"],
             "sr":"7",
@@ -8008,7 +8008,7 @@
         },
         "alolan sandshrew":{
             "desc":"After fleeing a volcanic eruption, it ended up moving to an area of snowy mountains. Its ice shell is as hard as steel.",
-            "dex_num":027,
+            "dex_num":27,
             "size":"tiny",
             "type":["ice","steel"],
             "sr":"1/2",
@@ -8043,7 +8043,7 @@
         },
         "alolan sandslash":{
             "desc":"It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow.",
-            "dex_num":028,
+            "dex_num":28,
             "size":"small",
             "type":["ice","steel"],
             "sr":"7",
@@ -8078,7 +8078,7 @@
         },
         "alolan vulpix":{
             "desc":"If you carelessly approach it because it's cute, the boss of the pack, Ninetales, will appear and freeze you.",
-            "dex_num":037,
+            "dex_num":37,
             "size":"tiny",
             "type":["ice"],
             "sr":"1/4",
@@ -8113,7 +8113,7 @@
         },
         "alolan ninetails":{
             "desc":"The reason it guides people all the way down to the mountain's base is that it wants them to hurry up and leave.",
-            "dex_num":038,
+            "dex_num":38,
             "size":"small",
             "type":["ice","fairy"],
             "sr":"5",
@@ -8148,7 +8148,7 @@
         },
         "alolan diglett":{
             "desc":"Although it's powerful enough to dig right through volcanic rock, it doesn't allow itself to be seen very often.",
-            "dex_num":050,
+            "dex_num":50,
             "size":"tiny",
             "type":["ground","steel"],
             "sr":"1/2",
@@ -8183,7 +8183,7 @@
         },
         "alolan dugtrio":{
             "desc":"Its metallic whiskers are heavy, so it's not very fast, but it has the power to dig through bedrock.",
-            "dex_num":051,
+            "dex_num":51,
             "size":"small",
             "type":["ground","steel"],
             "sr":"7",
@@ -8218,7 +8218,7 @@
         },
         "alolan meowth":{
             "desc":"It's impulsive, selfish, and fickle. It's very popular with some trainers who like giving it the attention it needs.",
-            "dex_num":052,
+            "dex_num":52,
             "size":"tiny",
             "type":["dark"],
             "sr":"1/2",
@@ -8253,7 +8253,7 @@
         },
         "alolan persian":{
             "desc":"In contrast to its lovely face, it's so brutal that it tortures its weakened prey rather than finishing them off.",
-            "dex_num":053,
+            "dex_num":53,
             "size":"small",
             "type":["dark"],
             "sr":"7",
@@ -8288,7 +8288,7 @@
         },
         "alolan geodude":{
             "desc":"If you mistake it for a rock and step on it, it will headbut you in anger. In addition to the pain, it will also zap you with a shock.",
-            "dex_num":074,
+            "dex_num":74,
             "size":"tiny",
             "type":["rock","electric"],
             "sr":"1/2",
@@ -8323,7 +8323,7 @@
         },
         "alolan graveler":{
             "desc":"When two Graveler fight each other, it fills the surroundings with flashes of light and sound. People call it the 'fireworks of the earth'",
-            "dex_num":075,
+            "dex_num":75,
             "size":"small",
             "type":["rock","electric"],
             "sr":"6",
@@ -8358,7 +8358,7 @@
         },
         "alolan golem":{
             "desc":"It's grumpy and stubborn. If you upset it, it discharges electricity from the surface of its body and growls with a voice like thunder.",
-            "dex_num":076,
+            "dex_num":76,
             "size":"medium",
             "type":["rock","electric"],
             "sr":"13",
@@ -8393,7 +8393,7 @@
         },
         "alolan grimer":{
             "desc":"There are a hundred or so of them living in Alola's waste-disposal site. They're all hard workers who eat a lot of trash.",
-            "dex_num":088,
+            "dex_num":88,
             "size":"small",
             "type":["poison","dark"],
             "sr":"1/2",
@@ -8428,7 +8428,7 @@
         },
         "alolan muk":{
             "desc":"There are over a hundred kinds of poison inside its body. Chemical reactions between different poisons are the source of its vitality.",
-            "dex_num":089,
+            "dex_num":89,
             "size":"small",
             "type":["poison","dark"],
             "sr":"8",
@@ -38352,6 +38352,6 @@
 				"high":4
 			},
 			"shiny_rate":"default"
-		},
+		}
 	}
 }
