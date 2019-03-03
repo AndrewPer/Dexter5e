@@ -51,7 +51,6 @@ def enc(name):
 	 	print("Encounter not found")
 
 
-
 def poke_print(name):
 	base = data["pokemon"][name]
 	print(name)
@@ -79,10 +78,11 @@ def poke_print(name):
 	print("HMs: " + str(base["moves"]["hms"]))
 
 
-# class mon:
+# class Mon:
 # 	def __init__(self,species,level,shiny_rate=0.01):
 
+
 for i in range(10):
-	print("Set %d" % i)
+	print("Set %d" % (i+1))
 	enc("example")
 	print(" ")
